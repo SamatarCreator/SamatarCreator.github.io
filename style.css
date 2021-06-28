@@ -1,7 +1,7 @@
-image1 {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px;
+img {
+    border: 40px solid rgb(8, 9, 59);
+    border-radius: 100px;
+    padding: 100px;
+    width: 500px;
 }
   
