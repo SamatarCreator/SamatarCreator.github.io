@@ -1,0 +1,400 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgba(211, 224, 207, 0.692);
+    font-family: Monaco,Consolas,Lucida Console,monospace;
+    
+      
+}
+
+.space-mucher {
+    margin-top:650px;
+}
+
+.space-much {
+    margin-top:420px;
+}
+
+.space {
+    margin-top:180px;
+}
+
+.space-less {
+    margin-top:120px;
+}
+
+.space-cards {
+    margin-top:50px;
+}
+
+h1 {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
+    color: #373b10e3;
+}
+
+h2 {
+    color: #373b10e3;
+}
+
+h3 {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
+    color: #373b10e3;
+    font-weight: 500;
+    
+}
+
+a {
+    font-size: larger;
+    color: #373b10e3;
+    
+}
+
+p {
+    font-size: small;
+}
+
+
+#myname h1 {
+    font-size: 450%;
+    width: 660px;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .30em solid #373b10b0; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: auto 0; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .14em; /* Adjust as needed */
+    animation: 
+      typing 1.8s steps(23, end),
+      blink-caret .75s step-end infinite;
+      animation-delay: 0.5s;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 660}
+}
+
+  /* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #373b10e3; }
+}
+
+
+.landing-section ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.landing-section ul li {
+    display: inline;
+    float: right;
+    
+}
+
+.landing-section ul li a {
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+    text-decoration: none;
+    transition: color 0.1s;
+    transition-timing-function: linear;
+}
+
+.landing-section ul li a:hover {
+    color: #8c9714d8;
+
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-section {
+    
+    height: 1400px;
+    width: 1200px;
+    
+    
+}
+
+.topbar {
+    background-color: rgba(211, 224, 207, 0.692);
+    height: 30px;
+    width: 1000px;
+    margin: auto;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    
+}
+
+.about-section {
+    background-color: rgba(66, 87, 59, 0.884);
+    height: 550px;
+    width: 1000px;
+    margin: auto;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    box-shadow: 0px 3px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.my-list ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.my-list ol li {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+    white-space: pre;
+    font-weight:450;
+    font-size:large;
+    color: white;
+}
+
+.my-list ol li a {
+    font-size:large;
+    text-decoration: none;
+    color: aqua;
+    transition: color 100ms;
+    transition-timing-function: ease-out;
+}
+
+.my-list ol li a:hover {
+    color: rgba(3, 211, 211, 0.897)
+}
+
+#blink-anchor {
+    width: 3px;
+    height: 15px;
+    background-color: rgba(255, 255, 255, 0.808);
+    margin-left: 118px;
+    margin-top: -55px;
+    animation: blink-animate .75s step-end infinite;
+}
+
+@keyframes blink-animate {
+    from, to { background-color: transparent }
+    50% { background-color: rgba(255, 255, 255, 0.808); }
+}
+
+.projects-section {
+    
+    height: 1900px;;
+    width: 1200px;
+    
+}
+
+.divider {
+    
+    height: 350px;
+    width: 300px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    -webkit-mask-image: url(./sources/Project1.png);
+    mask-image: url(./sources/Project1.png);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat; 
+    
+}
+
+.project-image {
+    margin-top: -220px;
+    margin-left: -50px;
+    filter: blur(1.9px);
+    
+    
+}
+
+.project-image4 {
+    margin-left: 30px;
+    margin-top: -150px;
+    filter: blur(0.7px);
+    
+    
+}
+
+.card-info {
+    float: right;
+    font-size: medium;
+    font-weight: lighter;
+    padding-left: 350px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    
+}
+
+#card1 {
+    background-color: rgba(211, 224, 207, 0.692);
+    height: 350px;
+    width: 900px;
+    margin: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 0px 3px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.card-boxes1 {
+    margin-right: 300px;
+    background-color: rgba(211, 224, 207, 0.692);
+    height: 50px;
+    width: 250px;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.a {
+    height: 23px;
+    width: 60px;
+    background-color: rgba(211, 224, 207, 0.692);
+    border-style: solid;
+    border-color: rgba(66, 87, 59, 0.884);
+    border-width: 2px;
+    border-radius: 5px;
+    text-align:justify;
+    text-align: center;
+    box-shadow: 0px 1px 5px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+.b {
+    height: 23px;
+    width: 38px;
+    background-color: rgba(211, 224, 207, 0.692);
+    border-style: solid;
+    border-color: rgba(66, 87, 59, 0.884);
+    border-width: 2px;
+    border-radius: 5px;
+    text-align:justify;
+    text-align: center;
+    box-shadow: 0px 1px 5px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+.c {
+    height: 23px;
+    width: 95px;
+    background-color: rgba(211, 224, 207, 0.692);
+    border-style: solid;
+    border-color: rgba(66, 87, 59, 0.884);
+    border-width: 2px;
+    border-radius: 5px;
+    text-align:justify;
+    text-align: center;
+    box-shadow: 0px 1px 5px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+#card1 h2 a {
+    color: #373b10e3;
+    font-weight: bold;
+    transition: color 100ms;
+    transition-timing-function: ease-out;
+}
+
+#card1 h2 a:hover {
+    color: #373b107e;
+}
+
+#card2 {
+    background-color: rgba(211, 224, 207, 0.692);
+    height: 350px;
+    width: 900px;
+    margin: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 0px 3px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+#card3 {
+    background-color: rgba(211, 224, 207, 0.692);
+    height: 350px;
+    width: 900px;
+    margin: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 0px 3px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+#card4 {
+    background-color: rgba(211, 224, 207, 0.692);
+    height: 350px;
+    width: 900px;
+    margin: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 0px 3px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+
+.contact-section {
+    
+    height: 50px;
+    width: 1200px;
+    text-align: center;
+}
+
+.contact-section ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.contact-section ul li {
+    display: inline;
+    text-align: center;
+}
+
+.contact-section ul li a {
+    padding: 7px;
+    text-decoration: none;
+    text-align: center;
+    color: #373b10e3;
+    transition: color 100ms;
+    transition-timing-function: ease-out;
+    
+}
+
+
+
+.contact-section ul li a:hover {
+    color: #373b107e;
+}
