@@ -366,7 +366,7 @@ p {
 
 .contact-section {
     
-    height: 50px;
+    height: 200px;
     width: 1200px;
     text-align: center;
 }
@@ -397,4 +397,8 @@ p {
 
 .contact-section ul li a:hover {
     color: #373b107e;
+}
+
+#toContacts {
+    text-align: center;
 }
