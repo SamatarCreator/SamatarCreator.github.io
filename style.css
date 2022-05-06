@@ -229,8 +229,8 @@ p {
 }
 
 .project-image4 {
-    margin-left: 50px;
-    margin-top: -90px;
+    margin-left: 70px;
+    margin-top: -200px;
     
     
     
@@ -260,57 +260,6 @@ p {
     
 }
 
-.card-boxes1 {
-    margin-right: 300px;
-    background-color: rgba(211, 224, 207, 0.692);
-    height: 50px;
-    width: 250px;
-    float: right;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    
-}
-
-.a {
-    height: 23px;
-    width: 60px;
-    background-color: rgba(211, 224, 207, 0.692);
-    border-style: solid;
-    border-color: rgba(66, 87, 59, 0.884);
-    border-width: 2px;
-    border-radius: 5px;
-    text-align:justify;
-    text-align: center;
-    box-shadow: 0px 1px 5px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
-}
-
-.b {
-    height: 23px;
-    width: 38px;
-    background-color: rgba(211, 224, 207, 0.692);
-    border-style: solid;
-    border-color: rgba(66, 87, 59, 0.884);
-    border-width: 2px;
-    border-radius: 5px;
-    text-align:justify;
-    text-align: center;
-    box-shadow: 0px 1px 5px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
-}
-
-.c {
-    height: 23px;
-    width: 95px;
-    background-color: rgba(211, 224, 207, 0.692);
-    border-style: solid;
-    border-color: rgba(66, 87, 59, 0.884);
-    border-width: 2px;
-    border-radius: 5px;
-    text-align:justify;
-    text-align: center;
-    box-shadow: 0px 1px 5px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
-}
 
 #card1 h2 a {
     color: #373b10e3;
